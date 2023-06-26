@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            //stack implementation
             Stack stack = new Stack();
 
             stack.Push(1);
@@ -21,6 +22,7 @@
             stack.Clear();
             Console.WriteLine("Stack Count after Clear: " + stack.Count);
 
+            //queue implementation 
 
             Queue queue = new Queue();
 
